@@ -12,4 +12,12 @@
       /* height: auto;
       width: auto;  */
 }
+.op{
+      /* background-color: red; */
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: auto;
+
+}
  

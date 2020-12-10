@@ -8,7 +8,7 @@ function App() {
   const [isLoaded, Loaded] = useState(false);
   const [record, UpdateRect] = useState({});
   return (
-    <div className="App"  style={{display:"flex", justifyContent:"center"}}>
+    <div className="App" >
       <Home  prevData={{parentState : {isLoaded,Loaded,dataState : {record, UpdateRect}}}}/>
     </div>
   );
